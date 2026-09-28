@@ -3,7 +3,7 @@ import "./App.css";
 import Dashboard from "./components/Dashboard";
 import AddNewLink from "./components/AddNewLink";
 import LinkDetails from "./components/LinkDetails";
-import EditExistingLink from "./components/EditExistinglink";
+import EditExistingLink from "./components/EditExistingLink";
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
